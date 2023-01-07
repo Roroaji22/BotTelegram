@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import openai
 openai.api_key = "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"
-api = '5824605883:AAFdCo89NHjThqB73VdvmFtE4nmR33Q1boU'
+api = "YOUR API"
 bot = telebot.TeleBot(api)
 
 def rsp(question):
